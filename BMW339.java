@@ -6,7 +6,7 @@ public class BMW339
 	public static void main(String[] args) throws Exception
 	{
 		
-		final int total = 128;
+		
 		String ID,PW;
 		String UserID="cis",UserPW="1234";
 		Scanner keyin = new Scanner(System.in);
@@ -1094,8 +1094,9 @@ public class BMW339
 			for(int it=0;it<i;it++)
 			{
 				fw.write(rowChange1[it]+" "+rowChange2[it]+" "+rowChange3[it]+" "+NewArray4[it]+" "+rowChange5[it]+" "+rowChange6[it]);
-				if(r%6==0) fw.write("\r\n");
-				r++;
+				//if(r%6==0)
+				fw.write("\r\n");
+				//r++;
 			}	
 			fw.close();
 		}
@@ -1130,7 +1131,8 @@ public class BMW339
 			for(int it=0;it<i;it++)
 			{
 				fw.write(rowChange1[it]+" "+rowChange2[it]+" "+rowChange3[it]+" "+NewArray4[it]+" "+rowChange5[it]+" "+rowChange6[it]);
-				if(r%6==0) fw.write("\r\n");
+				//if(r%6==0)
+				fw.write("\r\n");
 			}	
 			fw.close();	
 		}	
